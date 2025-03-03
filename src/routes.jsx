@@ -1,7 +1,8 @@
 // defeining my PAGE ROUTES ====================
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/HomeLogin";
-import Search from "./pages/Search";
+import Home from "./pages/Home";
+import LoginPage from "./pages/Login";
+// import Search from "./pages/Search";
 import Profile from "./pages/Profile";
 import Navbar from "./components/navBar";
 import PlaylistsPage from "./pages/Playlists";
@@ -18,7 +19,7 @@ const AppRoutes = () => {
       {/* adding navBar---- */}
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LoginPage />} />
         <Route path="/search" element={<Search />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/playlists" element={<PlaylistsPage />} />
