@@ -1,0 +1,57 @@
+/* Playlists ------ Page styling...  */
+
+/* Page container */
+.playlists-container {
+  margin: 0 auto;
+  text-align: center;
+  background: #181818;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Title ----- */
+.playlists-title {
+  color: #1d9045;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Playlist list */
+.playlists-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Playlist--- Item */
+.playlist-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #303030;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+/* hoever style ----  */
+.playlist-item:hover {
+  background: #333;
+}
+
+/* Image/cover --- */
+.playlist-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+}
+
+/*  Name +  Link */
+.playlist-name {
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.playlist-name:hover {
+  color: #1d9045;
+}

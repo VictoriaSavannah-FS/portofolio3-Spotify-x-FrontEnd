@@ -13,6 +13,9 @@ const Navbar = () => {
         <li>
           <Link to="/profile">Profile</Link>
         </li>
+        <li>
+          <Link to="/playlists">Playlists</Link>
+        </li>
       </ul>
     </nav>
   );

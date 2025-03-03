@@ -4,6 +4,7 @@ import Home from "./pages/HomeLogin";
 import Search from "./pages/Search";
 import Profile from "./pages/Profile";
 import Navbar from "./components/navBar";
+import PlaylistsPage from "./pages/Playlists";
 /**CREATE ROUTES FOR
  * PAGES
  * home/login
@@ -20,6 +21,7 @@ const AppRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/playlists" element={<PlaylistsPage />} />
       </Routes>
     </Router>
   );
